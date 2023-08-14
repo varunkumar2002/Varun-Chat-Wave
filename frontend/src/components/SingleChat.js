@@ -167,7 +167,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             pb={3}
             px={2}
             w="100%"
-            fontFamily="Work sans"
+            fontFamily="Adobe Caslon Italic"
             d="flex"
             justifyContent={{ base: "space-between" }}
             alignItems="center"
@@ -252,7 +252,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       ) : (
         // to get socket.io on same page
         <Box d="flex" alignItems="center" justifyContent="center" h="100%">
-          <Text fontSize="3xl" pb={3} fontFamily="Work sans">
+          <Text fontSize="3xl" pb={3} fontFamily="Adobe Caslon Italic">
             Click on a user to start chatting
           </Text>
         </Box>
